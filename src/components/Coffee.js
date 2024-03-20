@@ -9,7 +9,13 @@ function Coffee(props) {
         <h3>Origin: {props.origin}</h3>
         <h3>Price: ${props.price}</h3>
         <h3>Roast: {props.roast}</h3>
-        <h3>Quantity (lbs): {props.quantity}</h3>
+        {props.quantity === 0 ? (
+          <React.Fragment>
+            <h3>Out of stock</h3>
+          </React.Fragment>
+        ) : (
+          <h3>Quantity (lbs): {props.quantity}</h3>
+        )}
         <hr/>
       </div>
     </React.Fragment>
