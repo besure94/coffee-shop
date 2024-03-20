@@ -10,7 +10,7 @@ function CoffeeDetail(props) {
       <h3>Origin: {coffee.origin}</h3>
       <h3>Price: ${coffee.price}</h3>
       <h3>Roast: {coffee.roast}</h3>
-      <h3>Quantity: {coffee.quantity} pounds</h3>
+      <h3>Quantity (lbs): {coffee.quantity}</h3>
 
       {coffee.quantity === 0 ? (
         <React.Fragment>

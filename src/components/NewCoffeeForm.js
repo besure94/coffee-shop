@@ -40,29 +40,31 @@ function NewCoffeeForm(props) {
           min="1"
           required/>
         <br/>
+        <label>Select a roast:</label>
+        <br/>
         <input
           type="radio"
           id="light"
           name="roast"
-          value="Light Roast"
+          value="Light"
           required/>
-        <label htmlFor="light">Light Roast</label>
+        <label htmlFor="light">Light</label>
         <br/>
         <input
           type="radio"
           id="medium"
           name="roast"
-          value="Medium Roast"
+          value="Medium"
           required/>
-        <label htmlFor="medium">Medium Roast</label>
+        <label htmlFor="medium">Medium</label>
         <br/>
         <input
           type="radio"
           id="dark"
           name="roast"
-          value="Dark Roast"
+          value="Dark"
           required/>
-        <label htmlFor="dark">Dark Roast</label>
+        <label htmlFor="dark">Dark</label>
         <br/>
         <button type="submit">Add</button>
         <hr/>
