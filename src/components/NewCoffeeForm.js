@@ -11,6 +11,7 @@ function NewCoffeeForm(props) {
       origin: event.target.origin.value,
       price: parseInt(event.target.price.value),
       roast: event.target.roast.value,
+      quantity: parseInt(event.target.quantity.value),
       id: v4()
     });
   }
@@ -42,6 +43,13 @@ function NewCoffeeForm(props) {
           type="text"
           name="roast"
           placeholder="Roast"
+          required/>
+        <br/>
+        <input
+          type="number"
+          name="quantity"
+          value="130"
+          placeholder="value"
           required/>
         <br/>
         <button type="submit">Add</button>
