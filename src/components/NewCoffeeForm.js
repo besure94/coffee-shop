@@ -19,6 +19,7 @@ function NewCoffeeForm(props) {
   return (
     <React.Fragment>
       <h3>Add Coffee</h3>
+      <p><strong>Note:</strong> <em>All of our coffee comes in burlap sacks. One burlap sack is 130 lbs.</em></p>
       <form onSubmit={handleNewCoffeeFormSubmission}>
         <input
           type="text"
@@ -40,10 +41,28 @@ function NewCoffeeForm(props) {
           required/>
         <br/>
         <input
-          type="text"
+          type="radio"
+          id="light"
           name="roast"
-          placeholder="Roast"
+          value="Light Roast"
           required/>
+        <label htmlFor="light">Light Roast</label>
+        <br/>
+        <input
+          type="radio"
+          id="medium"
+          name="roast"
+          value="Medium Roast"
+          required/>
+        <label htmlFor="medium">Medium Roast</label>
+        <br/>
+        <input
+          type="radio"
+          id="dark"
+          name="roast"
+          value="Dark Roast"
+          required/>
+        <label htmlFor="dark">Dark Roast</label>
         <br/>
         <button type="submit">Add</button>
         <hr/>
