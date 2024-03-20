@@ -15,3 +15,8 @@ code {
 .app-header {
   text-align: center;
 }
+
+#root {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
