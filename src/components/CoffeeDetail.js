@@ -5,20 +5,20 @@ function CoffeeDetail(props) {
   const { coffee, onClickingSell, onClickingDelete, onClickingEdit, onClickingRestock } = props;
   return (
     <React.Fragment>
-      <h1>Coffee Details</h1>
-      <h3>Name: {coffee.name}</h3>
-      <h3>Origin: {coffee.origin}</h3>
-      <h3>Price: ${coffee.price}</h3>
-      <h3>Roast: {coffee.roast}</h3>
+      <h2>Coffee Details</h2>
+      <h3>Name: <span className="coffee-details">{coffee.name}</span></h3>
+      <h3>Origin: <span className="coffee-details">{coffee.origin}</span></h3>
+      <h3>Price: <span className="coffee-details">${coffee.price}</span></h3>
+      <h3>Roast: <span className="coffee-details">{coffee.roast}</span></h3>
 
       {coffee.quantity === 0 ? (
         <React.Fragment>
-          <h3>Out of stock</h3>
+          <h2><span className="coffee-details">Out of stock!</span></h2>
           <button onClick={() => onClickingRestock(coffee)}>Restock</button>
         </React.Fragment>
       ) : (
         <React.Fragment>
-          <h3>Quantity (lbs): {coffee.quantity}</h3>
+          <h3>Quantity (lbs): <span className="coffee-details">{coffee.quantity}</span></h3>
           <button onClick={() => onClickingSell(coffee)}>Sell</button>
         </React.Fragment>
       )}

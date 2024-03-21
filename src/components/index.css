@@ -16,7 +16,56 @@ code {
   text-align: center;
 }
 
+body {
+  background-color: #c38e70;
+}
+
+.coffee-details {
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 3.5rem;
+  font-family: cursive;
+  font-style: italic;
+}
+
+h2 {
+  color: black;
+  font-family: cursive;
+  font-style: italic;
+}
+
+h3 {
+  color: white;
+  font-family: cursive;
+  font-style: italic;
+}
+
+input {
+  font-family: cursive;
+  font-style: italic;
+  color: black;
+  font-size: 1.1rem;
+}
+
+label {
+  font-family: cursive;
+  font-style: italic;
+  color: black;
+  font-size: 1.1rem;
+  padding-left: 0.125rem;
+}
+
+p {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: black;
+}
+
 #root {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
