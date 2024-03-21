@@ -30,7 +30,8 @@ To view a diagram of this application to understand its component structure, [cl
 ## Setup/Installation Requirements
 
 * Select the green `Code` button, and clone this repository to your desktop.
-* In your terminal, navigate to this project's folder, and run the command `$ npm run start` to start a live development server. This will open the project in your web browser at the URL `localhost:3000`.
+* In your terminal, navigate to this project's folder, and run the command `$ npm install`. This will install all relevant packages.
+* Run the command `$ npm run start` to start a live development server. This will open the project in your web browser at the URL `localhost:3000`, allowing you to use the application.
 
 ## Known Bugs
 
