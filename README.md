@@ -25,6 +25,8 @@ Each brand of coffee comes in a burlap sack, which weighs 130 lbs. This will be 
 
 Users can also `Edit` a coffee's details, and they can delete a coffee brand from their inventory entirely if they wish to do so.
 
+To view a diagram of this application to understand its component structure, [click here](./coffee_shop_diagram.drawio.svg).
+
 ## Setup/Installation Requirements
 
 * Select the green `Code` button, and clone this repository to your desktop.
